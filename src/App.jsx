@@ -370,7 +370,7 @@ export default function App() {
       <header className="header">
         <div className="logo">
           <span className="logo-icon">◈</span>
-          <span className="logo-text">Atmos<em>Watch</em></span>
+          <span className="logo-text">Atmos<em>Stalker</em></span>
         </div>
         <div className="header-sub">Real-time Weather & Air Quality</div>
       </header>
@@ -417,9 +417,7 @@ export default function App() {
         </div>
       )}
 
-      <footer className="footer">
-        <span>Powered by Open-Meteo API • No API key required</span>
-      </footer>
+      <footer className="footer"></footer>
     </div>
   )
 }
